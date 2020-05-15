@@ -10,6 +10,10 @@ import { from } from 'rxjs';
 export class ShippingComponent implements OnInit {
 
   shippingCosts;
+  /**
+   * constructor of ShippingComponent
+   * @param cartService 
+   */
   constructor(private cartService: CartService) { }
 
   ngOnInit(): void {

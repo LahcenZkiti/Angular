@@ -1,3 +1,7 @@
+/**
+ * Data of products
+ */
+
 export const products = [
   {
     name: 'Phone XL',
